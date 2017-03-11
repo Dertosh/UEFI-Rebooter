@@ -30,7 +30,7 @@ set_first()
     OPT=$NUMBER,$(efibootmgr | sed "/BootOrder:/!d;s/BootOrder: //;s/\*.*//;s/.$NUMBER//")
 
     # Add new boot options.
-    efibootmgr -o  --bootorder $OPT
+    efibootmgr --bootorder $OPT
 }
 
 #will be reboot at once  
