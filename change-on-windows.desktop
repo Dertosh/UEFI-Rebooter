@@ -1,15 +1,14 @@
 [Desktop Entry]
-Version=1.0
 Encoding=UTF-8
 Type=Application
-Categories=System;
+Categories=System;Settingd;
 Name=Change on Windows
 Name[ru]=Сменить на Windows
 GenericName=OS Changer
 GenericName[ru]=Переключатель ОС
 Comment=Make Windows a main system 
 Comment[ru]=Сделать Windows постоянной системой 
-Exec=sudo /usr/bin/rebooter.sh "Windows Boot Manager"
+Exec=gksudo "rebooter.sh 'Windows Boot Manager'"
 Icon=/usr/share/pixmaps/Windows_logo.svg
 Terminal=false
 NoDisplay=false
