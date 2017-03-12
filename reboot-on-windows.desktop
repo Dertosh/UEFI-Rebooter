@@ -1,14 +1,14 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Categories=System;
+Categories=System;Settingd;
 Name=Reboot to Windows
 Name[ru]=Перезагрузиться в Windows
 GenericName=OS Changer
 GenericName[ru]=Переключатель ОС
 Comment=One time reboot in Windows 
 Comment[ru]=Единоразово перезагрузится в Windows 
-Exec=gksudo "rebooter.sh "Windows Boot Manager" --bootnext"
+Exec=gksudo "rebooter.sh 'Windows Boot Manager' --bootnext"
 Icon=/usr/share/pixmaps/Windows_logo.svg
 Terminal=false
 NoDisplay=false
